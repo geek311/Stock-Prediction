@@ -43,7 +43,8 @@ Since this goal is to predict future stock prices through a Long Short-Term Memo
 ## Note - Input Data
 2 datasets are important :
 (1) Data in data/stocks folder containing stocks with 10-year stock price history
-(2) "goog.csv" - Googlestock price history used in Benchmark Model for comparison
+
+(2) "goog.csv" - Googlestock price history used in Benchmark Model for comparison. For Benchmark analysis, I got this dataset from Yahoo Finance
 
 ## Solution Statement
 To solve this problem, I am using recurrent neural network.  I will be using Long Short-Term Memory as the model - LSTMs are an enhanced version of recurrent neural networks (RNNs). LSTMs are a type of RNN that remember information over long periods of time, making them better suited for predicting stock prices. The stock that the user selects will be the target. The model will be trained and used to predict the closing price stock price of the chosen stock using LSTM.
