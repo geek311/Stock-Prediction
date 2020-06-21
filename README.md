@@ -20,11 +20,17 @@ For each stock, the inputs multiple metrics - opening price (Open), highest pric
 
 #### Characteristics of input datasets :
 •	Open: Opening stock price of the day
+
 •	Close: Closing stock price of the day
+
 •	High: Highest stock price of the data
+
 •	Low: Lowest stock price of the day
+
 •	Volume : Volume of shares tracded on a day
+
 •	Adjusted Close : the closing price that has been amended to include any distributions and corporate actions that occurred at any time prior to the next day’s open
+
 •	company_name
 
 Since this goal is to predict future stock prices through a Long Short-Term Memory (LSTM) method, it is important to understand the historical performance of the stocks, the pattern and risk factors and then predict the stock movement in the future. Hence, the above two datasets will provide ample data points we require to train, test and evaluate the model
