@@ -4,7 +4,7 @@ Accurately predicting Stock Prices has been a long-standing problem that mankind
    
 performance of stocks, this project tries to solve of the problem of predicting the stock prices in the market as accurately as possible. The problem is replicable and quantifiable.
 
-### In this LSTM model, I will be using tech stocks to predict the prices for 'AAPL', 'GOOG', 'AMZN' and 'MSFT'
+#### In this LSTM model, I will be using tech stocks to predict the prices for 'AAPL', 'GOOG', 'AMZN' and 'MSFT'
 
 ## Datasets and Inputs
 
