@@ -60,11 +60,11 @@ The solution has been divided into the following parts :
 #### stock-market-prediction.ipynb has the main code 
 
 References :
-• https://en.wikipedia.org/wiki/NASDAQ
-• https://en.wikipedia.org/wiki/New_York_Stock_Exchange 
-• http://www.investopedia.com/terms 
-• https://en.wikipedia.org/wiki/Root-mean-square_deviation
-• https://en.wikipedia.org/wiki/Coefficient_of_determination 
-• http://scikit-learn.org/stable/modules/model_evaluation.html 
-• https://www.kaggle.com/wiki/RootMeanSquaredError
+https://en.wikipedia.org/wiki/NASDAQ
+https://en.wikipedia.org/wiki/New_York_Stock_Exchange 
+http://www.investopedia.com/terms 
+https://en.wikipedia.org/wiki/Root-mean-square_deviation
+https://en.wikipedia.org/wiki/Coefficient_of_determination 
+http://scikit-learn.org/stable/modules/model_evaluation.html 
+https://www.kaggle.com/wiki/RootMeanSquaredError
 https://www.kaggle.com
