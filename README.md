@@ -52,4 +52,4 @@ The solution has been divided into the following parts :
 6) Predict closing stock price and stock price movement of any given stock. 
 7) Evaluate model performance
 
-
+#### stock-market-prediction.ipynb has the main code 
