@@ -7,18 +7,18 @@ performance of stocks, this project tries to solve of the problem of predicting 
 ## Datasets and Inputs
 
 The datasets and inputs used in this project will be from Alpha Vantage and S&P 500 Full dataset with 10 Years of Open/Close/Low/High/Volume data.
-(1)	Yahoo Finance – To get the historical and latest stock prices. Using pandas-datareader (a pandas extension with built-in web-scraping features), I have scraped the stock prices of last 10 years
+#### (1)	Yahoo Finance – To get the historical and latest stock prices. Using pandas-datareader (a pandas extension with built-in web-scraping features), I have scraped the stock prices of last 10 years
 
-(2)	Alpha Vantage – At the outset, an API key will be required, which we will be obtained for free at the above link. After that, the API key will be assigned to the api_key variable.
+#### (2)	Alpha Vantage – At the outset, an API key will be required, which we will be obtained for free at the above link. After that, the API key will be assigned to the api_key variable.
 
 Alpha Vantage APIs are grouped into four categories: (1) Stock Time Series Data, (2) Physical and Digital/Crypto Currencies (e.g., Bitcoin), (3) Technical Indicators, and (4) Sector Performances. All APIs are real time: the latest data points are derived from the current trading day. This project will be using the Stock Time Series Data.
 
-(3)	S&P 500 Full dataset  - Data is downloaded for S&P 500 stocks into a “Stocks” folder. Later this data will also be uploaded in a folder in S3 bucket which the model can use.
+#### (3)	S&P 500 Full dataset  - Data is downloaded for S&P 500 stocks into a “Stocks” folder. Later this data will also be uploaded in a folder in S3 bucket which the model can use.
 
 
 For each stock, the inputs multiple metrics - opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close) . 
 
-Characteristics of input datasets :
+#### Characteristics of input datasets :
 •	Open: Opening stock price of the day
 •	Close: Closing stock price of the day
 •	High: Highest stock price of the data
