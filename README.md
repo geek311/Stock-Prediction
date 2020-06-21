@@ -6,6 +6,9 @@ performance of stocks, this project tries to solve of the problem of predicting 
 
 #### In this LSTM model, I will be using tech stocks to predict the prices for 'AAPL', 'GOOG', 'AMZN' and 'MSFT'
 
+## Environment Requirements
+This project was developed in Amazon Sagemaker with a conda_tensorflow_36 kernel and needs the Pandas datareader packages
+
 ## Datasets and Inputs
 
 The datasets and inputs used in this project will be from Alpha Vantage and S&P 500 Full dataset with 10 Years of Open/Close/Low/High/Volume data.
